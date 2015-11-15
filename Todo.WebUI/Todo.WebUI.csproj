@@ -120,10 +120,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bootstrapper.cs" />
+    <Compile Include="Controllers\SecurityController.cs" />
     <Compile Include="Controllers\TaskController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\LoginModel.cs" />
     <Compile Include="Models\TaskModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -137,6 +139,7 @@
     <Content Include="Scripts\Pages\tasks-page.js" />
     <Content Include="Unity.Mvc4.README.txt" />
     <Content Include="Views\Task\TasksPartial.cshtml" />
+    <Content Include="Views\Security\Login.cshtml" />
     <None Include="Web.config" />
     <Content Include="Web.config.uninstall.xdt" />
     <Content Include="Web.config.install.xdt" />
