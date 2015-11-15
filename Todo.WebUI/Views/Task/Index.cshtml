@@ -1,0 +1,52 @@
+﻿@{
+    Layout = null;
+    List<TaskEntity> tasks = ViewBag.Tasks;
+    int? @taskId = ViewBag.TaskId;
+    string @result = ViewBag.Result;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    @using Todo.Entities
+    <script src="~/Scripts/Libs/jQuery/jquery-2.1.4.js"></script>
+</head>
+<body>
+    <div>
+
+        <select id="task-status-filter" style="text-align:center">
+            <option value="">All</option>
+            <option value="true">Complited</option>
+            <option value="false">In progress</option>
+        </select>
+
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>#</td>
+                    <td>Task</td>
+                    <td>Done</td>
+                </tr>
+            </thead>
+            <tbody id="tasks-table">
+                @Html.Partial("TasksPartial", tasks)
+            </tbody>
+        </table>
+
+
+        
+        <form method="post" action ="/task/delete">
+            Id = <input type="text" name="taskId" value="1"/>
+            <input type = "submit" name = "submit" value = "DELETE">
+        </form>
+
+    </div>
+
+    <script src="~/Scripts/Pages/tasks-page.js"></script>
+
+</body>
+</html>

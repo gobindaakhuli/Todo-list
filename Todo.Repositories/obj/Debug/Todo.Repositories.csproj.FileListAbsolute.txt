@@ -1,0 +1,14 @@
+D:\Boichura\ASP.NET\Todo\Todo.Repositories\bin\Debug\Todo.Repositories.dll
+D:\Boichura\ASP.NET\Todo\Todo.Repositories\bin\Debug\Todo.Repositories.pdb
+D:\Boichura\ASP.NET\Todo\Todo.Repositories\bin\Debug\Todo.Entities.dll
+D:\Boichura\ASP.NET\Todo\Todo.Repositories\bin\Debug\Todo.Entities.pdb
+D:\Boichura\ASP.NET\Todo\Todo.Repositories\obj\Debug\Todo.Repositories.csprojResolveAssemblyReference.cache
+D:\Boichura\ASP.NET\Todo\Todo.Repositories\obj\Debug\Todo.Repositories.dll
+D:\Boichura\ASP.NET\Todo\Todo.Repositories\obj\Debug\Todo.Repositories.pdb
+C:\Users\user.STEP.001\Downloads\Todo2\Todo\Todo.Repositories\bin\Debug\Todo.Repositories.dll
+C:\Users\user.STEP.001\Downloads\Todo2\Todo\Todo.Repositories\bin\Debug\Todo.Repositories.pdb
+C:\Users\user.STEP.001\Downloads\Todo2\Todo\Todo.Repositories\bin\Debug\Todo.Entities.dll
+C:\Users\user.STEP.001\Downloads\Todo2\Todo\Todo.Repositories\bin\Debug\Todo.Entities.pdb
+C:\Users\user.STEP.001\Downloads\Todo2\Todo\Todo.Repositories\obj\Debug\Todo.Repositories.csprojResolveAssemblyReference.cache
+C:\Users\user.STEP.001\Downloads\Todo2\Todo\Todo.Repositories\obj\Debug\Todo.Repositories.dll
+C:\Users\user.STEP.001\Downloads\Todo2\Todo\Todo.Repositories\obj\Debug\Todo.Repositories.pdb

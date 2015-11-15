@@ -1,0 +1,22 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    @model Todo.WebUI.Models.TaskModel
+    <title>Edit</title>
+</head>
+<body>
+    <div style="border:1px solid black; width:250px">
+        <p>Task: editing</p>
+        <p>Id @Html.LabelFor(m => m.Id)</p>
+        <p>Title @Html.TextBoxFor(m => m.Title)</p>
+        <p>Done @Html.CheckBoxFor(m => m.IsDone)</p>
+        <p><input type="submit" value="Save"/> <input type="submit" value="Cancel"/></p>
+    </div>
+</body>
+</html>

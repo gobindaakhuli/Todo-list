@@ -1,0 +1,10 @@
+D:\Boichura\ASP.NET\Todo\Todo.Entities\bin\Debug\Todo.Entities.dll
+D:\Boichura\ASP.NET\Todo\Todo.Entities\bin\Debug\Todo.Entities.pdb
+D:\Boichura\ASP.NET\Todo\Todo.Entities\obj\Debug\Todo.Entities.dll
+D:\Boichura\ASP.NET\Todo\Todo.Entities\obj\Debug\Todo.Entities.pdb
+C:\Users\user.STEP.001\Downloads\Todo2\Todo\Todo.Entities\bin\Debug\Todo.Entities.dll
+C:\Users\user.STEP.001\Downloads\Todo2\Todo\Todo.Entities\bin\Debug\Todo.Entities.pdb
+C:\Users\user.STEP.001\Downloads\Todo2\Todo\Todo.Entities\obj\Debug\Todo.Entities.csprojResolveAssemblyReference.cache
+C:\Users\user.STEP.001\Downloads\Todo2\Todo\Todo.Entities\obj\Debug\Todo.Entities.dll
+C:\Users\user.STEP.001\Downloads\Todo2\Todo\Todo.Entities\obj\Debug\Todo.Entities.pdb
+D:\Boichura\ASP.NET\Todo\Todo.Entities\obj\Debug\Todo.Entities.csprojResolveAssemblyReference.cache

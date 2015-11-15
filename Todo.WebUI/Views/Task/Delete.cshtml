@@ -1,0 +1,22 @@
+﻿@{
+    Layout = null;
+    string @taskId = ViewBag.TaskId;
+    string @result = ViewBag.Result;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Delete</title>
+</head>
+<body>
+    <div>
+        <form method="post" action="/Task/Index">
+            <input type = "submit" name = "submit" value = "Come back">
+            <input type="text" name="temp" value="@result"/>
+        </form>
+    </div>
+</body>
+</html>
