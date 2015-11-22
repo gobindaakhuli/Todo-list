@@ -3,6 +3,8 @@ using Microsoft.Practices.Unity;
 using Unity.Mvc4;
 using Todo.Repositories;
 using Todo.Repositories.Interfaces;
+using Todo.WebUI.Code.Managers.Interfaces;
+using Todo.WebUI.Code.Managers;
 
 namespace Todo.WebUI
 {
@@ -11,11 +13,9 @@ namespace Todo.WebUI
         public static IUnityContainer Initialise()
         {
             var container = BuildUnityContainer();
-            //string connectionString = ;
-            //container.RegisterType<ITaskRepository.SqlTaskRepository>(
-            //                                                            new InjectionConstructor(connectionString)
-            //                                                        );
 
+            container.RegisterType<ITaskRepository, FakeTaskRepository>();
+            container.RegisterType<ISecurityManager, FormsSecurityManager>();
             DependencyResolver.SetResolver(new UnityDependencyResolver(container));
 
             return container;
@@ -28,7 +28,8 @@ namespace Todo.WebUI
             // register all your components with the container here
             // it is NOT necessary to register your controllers
 
-            container.RegisterType<ITaskRepository, FakeTaskRepository>();    
+            container.RegisterType<ITaskRepository, FakeTaskRepository>();
+            container.RegisterType<IFakeUserRepository, FakeUserRepository>();    
             RegisterTypes(container);
 
             return container;

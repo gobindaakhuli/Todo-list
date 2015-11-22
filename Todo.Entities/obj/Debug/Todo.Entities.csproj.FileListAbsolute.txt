@@ -7,3 +7,8 @@ C:\Users\user.STEP.001\Downloads\Todo2\Todo\Todo.Entities\bin\Debug\Todo.Entitie
 C:\Users\user.STEP.001\Downloads\Todo2\Todo\Todo.Entities\obj\Debug\Todo.Entities.csprojResolveAssemblyReference.cache
 C:\Users\user.STEP.001\Downloads\Todo2\Todo\Todo.Entities\obj\Debug\Todo.Entities.dll
 C:\Users\user.STEP.001\Downloads\Todo2\Todo\Todo.Entities\obj\Debug\Todo.Entities.pdb
+C:\Users\user\Downloads\Todo-list-master\Todo.Entities\bin\Debug\Todo.Entities.dll
+C:\Users\user\Downloads\Todo-list-master\Todo.Entities\bin\Debug\Todo.Entities.pdb
+C:\Users\user\Downloads\Todo-list-master\Todo.Entities\obj\Debug\Todo.Entities.csprojResolveAssemblyReference.cache
+C:\Users\user\Downloads\Todo-list-master\Todo.Entities\obj\Debug\Todo.Entities.dll
+C:\Users\user\Downloads\Todo-list-master\Todo.Entities\obj\Debug\Todo.Entities.pdb

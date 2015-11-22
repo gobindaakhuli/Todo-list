@@ -1,0 +1,27 @@
+﻿@{
+    Layout = null;
+    string message = ViewBag.Mess;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />    
+    @model Todo.WebUI.Models.SecurityModel
+    <title>Login</title>
+</head>
+<body>
+    <div>
+        <form method="post">
+            <p>@message</p>
+            @Html.LabelFor(m => m.Login)
+            @Html.TextBoxFor(m => m.Login)
+
+            @Html.LabelFor(m => m.Password)
+            @Html.TextBoxFor(m => m.Password)
+            <input type="submit" name="Login" value="Login" />
+        </form>
+    </div>
+</body>
+</html>

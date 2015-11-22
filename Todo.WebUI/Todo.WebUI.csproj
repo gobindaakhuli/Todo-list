@@ -120,7 +120,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bootstrapper.cs" />
+    <Compile Include="Code\Managers\FormsSecurityManager.cs" />
+    <Compile Include="Code\Managers\Interfaces\ISecurityManager.cs" />
     <Compile Include="Controllers\SecurityController.cs" />
+    <Compile Include="Models\SecurityModel.cs" />
     <Compile Include="Controllers\TaskController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

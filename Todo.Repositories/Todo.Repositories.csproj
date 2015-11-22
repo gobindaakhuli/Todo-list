@@ -40,6 +40,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FakeTaskRepository.cs" />
+    <Compile Include="FakeUserRepository.cs" />
+    <Compile Include="Interfaces\IFakeUserRepository.cs" />
     <Compile Include="Interfaces\ITaskRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlTaskRepository.cs" />
