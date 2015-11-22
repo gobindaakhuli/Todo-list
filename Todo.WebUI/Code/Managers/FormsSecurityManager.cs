@@ -40,7 +40,7 @@ namespace Todo.WebUI.Code.Managers
         }
         void ISecurityManager.Logout()
         {
-
+            FormsAuthentication.SignOut();
         }
     }
 }

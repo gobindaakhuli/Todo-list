@@ -10,6 +10,7 @@ using Todo.WebUI.Models;
 
 namespace Todo.WebUI.Controllers
 {
+    [Authorize]
     public class TaskController : Controller
     {
         //

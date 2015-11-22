@@ -143,6 +143,7 @@
     <Content Include="Unity.Mvc4.README.txt" />
     <Content Include="Views\Task\TasksPartial.cshtml" />
     <Content Include="Views\Security\Login.cshtml" />
+    <Content Include="Views\Security\Logout.cshtml" />
     <None Include="Web.config" />
     <Content Include="Web.config.uninstall.xdt" />
     <Content Include="Web.config.install.xdt" />

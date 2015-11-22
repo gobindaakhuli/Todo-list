@@ -42,5 +42,13 @@ namespace Todo.WebUI.Controllers
             }
         }
 
+
+        [HttpPost]
+        public ActionResult Logout()
+        {
+            _securityManager.Logout();
+            return RedirectToAction("Login", "Security");
+        }
+
     }
 }
